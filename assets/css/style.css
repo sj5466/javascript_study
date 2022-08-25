@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+body{
+    background-color: #CDEA68;
+    font-family: 'Anton', sans-serif;
+}
+
+/*메인페이지*/
+.javascript{
+    text-align: center;
+    background-color: #CDEA68;
+    position: absolute;
+    left:50%;
+    top: 50%; 
+    transform: translate( -50%, -50%);
+}
+.effect{
+    position: relative;
+}
+.eyes{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+}
+.eyes .eye{
+    position: relative;
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+    background: #fff;
+}
+.eyes .eye:nth-child(1){
+    margin-right: -2vw;
+}
+.eyes .eye .black {
+    position: absolute;
+    left: 25%;
+    top: 25%; 
+    z-index: 1;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background: #000;
+}
+.eyes .eye .white {
+    margin-top: 25%;
+    display: block;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    background: #fff;
+}
+.bg_box{
+    width:1236px ;  height: 44px;
+    background-color: #BFDA62;
+    position: absolute;
+    left: 50%; bottom: 0px;
+    transform: translateX(-50%);
+    border-radius: 15px 15px 0px 0px; 
+    
+}
+.title{
+    font-size: 150px;
+}
+.menu{
+    width: 1480px; 
+    background-color: #B8D25E;
+    border-radius: 15px ; 
+    display: inline-block;
+    padding: 50px 0px;
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    font-size: 21px;
+    line-height: 40px;
+   color: #fff;
+}
+.menu ul li:hover{
+    background-color: #fff;
+    border: 0px;
+}
+.menu ul li a:hover{
+    color: #B8D25E;
+}
+.menu ul:nth-child(1) li
+{
+    width: 220px; height: 40px;
+    border: 2px dashed #fff;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.menu ul:nth-child(1) li:last-child
+{
+    margin-right: 0px;
+}
+.menu ul:nth-child(1) li a
+{
+    display: block;
+    width: 220px; height: 40px;
+}
+
+.menu ul:nth-child(2) li{
+    margin-top: 20px;
+    width: 160px; height: 40px;
+    border: 2px dashed #fff;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.menu ul:nth-child(2) li:last-child{
+    margin-right: 0px;
+}
+.menu ul:nth-child(2) li a{
+    display: block;
+    width: 160px; height: 40px;
+}
+
+
+
